@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pp_title"
+        style="@style/title_text_style"
+        android:text="@string/my_race_religion" />
+
+    <LinearLayout
+        android:id="@+id/gender_selection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_continue"
+        android:layout_below="@+id/pp_title"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/s_race"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_bg"
+            android:entries="@array/race_arrays"
+            android:padding="10dp"
+            android:spinnerMode="dialog"
+            android:prompt="@string/race_prompt" />
+
+        <Spinner
+            android:id="@+id/s_religion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_bg"
+            android:entries="@array/religion_arrays"
+            android:padding="10dp"
+            android:spinnerMode="dialog"
+            android:prompt="@string/religion_prompt" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_continue"/>
+</RelativeLayout>

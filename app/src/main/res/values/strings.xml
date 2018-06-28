@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">pheramor</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="height">Height in cm.</string>
+    <string name="man">MAN</string>
+    <string name="woman">WOMAN</string>
+    <string name="i_am_a">I am a</string>
+    <string name="i_was_born_on">I was born on</string>
+    <string name="i_am_interested_in">I am interested in</string>
+    <string name="both">BOTH</string>
+    <string name="age_range">Age Range:</string>
+    <string name="to">TO</string>
+    <string name="max">Max</string>
+    <string name="min">Min</string>
+    <string name="my_profile_pic_will_be">My profile pic will be</string>
+    <string name="upload_your_profile_picture">Upload your profile picture</string>
+    <string name="race_prompt">Choose your race</string>
+    <string name="religion_prompt">Choose your religion</string>
+    <string name="my_race_religion">My Race and Religion</string>
+    <string name="birthday_prompt">Tap to select your Birthday</string>
+    <string name="_continue">Continue</string>
+    <string name="email_error_message">Please enter a valid email address</string>
+    <string name="password_error_message">  <![CDATA[
+        Password must contain:<br>
+    at least&nbsp;8 characters and max 16 characters.<br>
+    at least&nbsp;1&nbsp;uppercase character.<br>
+    at least&nbsp;1 lowercase character.<br>
+    at least&nbsp;1 digits.<br>
+    at least&nbsp;1 special character.<br >
+        ]]></string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="name_validation">Name should contain at least three characters.</string>
+    <string name="height_validation">Please enter the correct height. eg(80-300)</string>
+    <string name="zip_validation">Please enter the correct zip code. eg(52557)</string>
+
+
+    <string-array name="race_arrays">
+        <item>Race</item>
+        <item>Asian</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Native Hawaiian</item>
+        <item>American Indian</item>
+    </string-array>
+
+    <string-array name="religion_arrays">
+        <item>Religion</item>
+        <item>Judaism</item>
+        <item>Christianity</item>
+        <item>Islam</item>
+        <item>Hinduism</item>
+        <item>Taoism</item>
+        <item>Buddhism</item>
+    </string-array>
+</resources>

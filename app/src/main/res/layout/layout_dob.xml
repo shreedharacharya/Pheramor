@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/birthday_title"
+        style="@style/title_text_style"
+        android:text="@string/i_was_born_on" />
+
+    <EditText
+        android:id="@+id/u_dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edittext_bg"
+        android:gravity="center"
+        android:hint="@string/date_of_birth"
+        android:padding="10dp" />
+
+
+    <include layout="@layout/layout_continue" />
+</RelativeLayout>

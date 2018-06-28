@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f2262a</color>
+    <color name="colorPrimaryDark">#1a5e9d</color>
+    <color name="colorAccent">#42cba2</color>
+
+    <color name="etSolid">#fcff4a</color>
+    <color name="etStroke">#a0a32f</color>
+    <color name="colorErrorMsg">#606060</color>
+    <color name="unselectedItem">#808080</color>
+    <color name="selectedItem">#404040</color>
+
+</resources>
